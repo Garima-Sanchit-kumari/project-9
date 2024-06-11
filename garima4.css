@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    background-color: #fff;
+}
+#home{
+    width: 100%;
+    min-height: 100vh;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 50px;
+}
+#nav #right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+#nav img{
+    width: 100px;
+}
+#nav img .image{
+    justify-content: space-between;
+}
+#nav a{
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+    letter-spacing: -px;
+    font-size: 1.1vw;
+}
+#nav i{
+    margin-top: 3px;
+    font-size: 20px;
+}
+#homemain{
+    justify-content: left;
+    padding: 5vw 15vw;
+    
+    width: 100%;
+}
+
+#homemain h1{
+    width: 100%;
+    height: 100%;
+    font-size: 110px;
+    font-weight: 400;
+}
+#homemain  .para{
+    margin-right: 5vw;
+    justify-content: left;
+    justify-content: space-between;
+}
+#homemain .para video{
+    font-size: 100px;
+    width: 100px;
+    height: 80px;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+#feature{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+#fleft{
+   
+   width: 40%;
+   height: inherit;
+   
+   
+}
+#fright{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    height: inherit;
+    font-weight: 400;
+    
+ }
+ #fright h1{
+    font-weight: 300;
+    font-size: 45px;
+ }
+ 
+
+ #fleft .r video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn button{
+    padding: 2.5vw 2.5vw;
+    border-radius: 100px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    font-size: 2vw;
+    margin-top: 2vw;
+}
+#project .para video{
+    font-size: 100px;
+    width: 100px;
+    height: 80px;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+#project{
+    justify-content: left;
+    padding: 5vw 15vw;
+    background-color: black;
+    width: 120%;
+}
+#project h1{
+    width: 100%;
+    height: 100%;
+    font-size: 110px;
+    font-weight: 400;
+    color: white;
+}
+#project .para{
+    margin-right: 5vw;
+    justify-content: left;
+    justify-content: space-between;
+}
+#project  video{
+    font-size: 50vw;
+    width: 50vw;
+    height: 50vw;
+    margin-top: 5vw;
+    border-radius: 50px;
+    
+}
+#project   h2{
+    font-size: 2vw;
+    width: 50%;
+    margin-right: 50vw;
+    padding-left: 6vw;
+    color: white;
+}
+#project .v{
+    
+    margin-bottom: 5vw;
+}
